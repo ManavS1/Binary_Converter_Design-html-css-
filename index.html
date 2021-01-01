@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body{
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color:#8EE4AF;
+      }
+
+      #main {
+        position: relative;
+        width: 300px;
+        margin: auto;
+        top: 200px;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+
+      #data {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .btn{
+          padding: 5px 80px;
+          letter-spacing: 2px;
+          background-color: crimson;
+          color: white;
+          font-size: 18px;
+          margin-top: 15px;
+      }
+      .btn1{
+          padding: 5px 96px;
+          letter-spacing: 2px;
+          background-color: crimson;
+          color: white;
+          font-size: 18px;
+          margin-top: 15px;
+      }
+      h1{
+          font-size: 21px;
+          text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <h1 class="h1"><u>Binary-Decimal Converter</u></h1>
+      <div id="data">
+        <label for="binary">Binary</label>
+        <input type="tex" name="" id="binary" placeholder="Binary Number" /><br />
+        <label for="decimal">Decimal</label>
+        <input type="tex" id="decimal" placeholder="Decimal Number" /><br />
+        <input type="submit" value="CONVERT" class="btn" /><br>
+        <input type="reset" value="RESET" class="btn1">
+      </div>
+    </div>
+  </body>
+</html>
